@@ -1,6 +1,6 @@
 # Penetration Testing Report
 
-## AWS Goat Vulnerable Infrastructure Assessment (With Root Cause Analysis)
+## AWS Goat Vulnerable Infrastructure Assessment 
 
 **Author:** Aadith C H\
 **Date:** 2026-02-25\
