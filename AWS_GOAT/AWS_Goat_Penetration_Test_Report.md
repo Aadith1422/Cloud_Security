@@ -1050,6 +1050,22 @@ Availability: High
 Overall Severity: CRITICAL
 
 ------------------------------------------------------------------------
+
+# 14. Conclusion
+
+The AWS Goat environment was critically vulnerable to a full attack chain beginning from web-layer flaws and ending in complete AWS administrative compromise.
+
+The primary root causes included:
+- Lack of input validation
+- Poor access control enforcement
+- Overly permissive IAM policies
+- Insecure secrets management
+- Misconfigured S3 and SSH exposure
+
+The overall severity of this assessment is CRITICAL due to successful privilege escalation to full administrative access.
+
+Immediate remediation and implementation of least privilege, proper IAM governance, secure coding practices, and infrastructure hardening are strongly recommended.
+
 # Vulnerability Summary Table
 
 Below is a consolidated summary of all identified vulnerabilities,
