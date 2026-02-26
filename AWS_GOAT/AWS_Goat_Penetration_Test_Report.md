@@ -18,6 +18,12 @@ AWS Goat is a deliberately vulnerable AWS environment designed to
 simulate real-world cloud misconfigurations and application
 vulnerabilities.
 
+# Architecture Overview
+
+The following diagram illustrates the AWS Goat application architecture and trust boundaries between components.
+
+![Figure 0 – AWS Goat Architecture and Attack Flow](screenshots/00_architecture_overview.png)
+
 ### Vulnerabilities Assessed:
 
 -   Cross Site Scripting (XSS)
