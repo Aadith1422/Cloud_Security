@@ -82,11 +82,11 @@ JIT VM access was not enabled for the virtual machine.
 
 ## 4. Risk Classification Summary
 
-  Finding            Severity   Risk Level
-  ------------------ ---------- -------------------
-  Public SSH (NSG)   High       Critical Exposure
-  Public Storage     High       Data Exposure
-  Missing JIT        Medium     Operational Risk
+| Finding              | Severity | Risk Level            |
+|----------------------|----------|------------------------|
+| Public SSH (NSG)     | High     | Critical Exposure      |
+| Public Storage       | High     | Data Exposure          |
+| Missing JIT Access   | Medium   | Operational Risk       |
 
 ------------------------------------------------------------------------
 
@@ -155,12 +155,12 @@ After applying fixes:
 
 ## 7. Before vs After Comparison
 
-  Component        Before             After
-  ---------------- ------------------ ----------------
-  NSG SSH          Open to Internet   Restricted
-  Storage Access   Public             Private
-  VM Access        Always Open        JIT Controlled
-  Secure Score     Lower              Improved
+| Component        | Before              | After          |
+|------------------|---------------------|---------------|
+| NSG SSH          | Open to Internet    | Restricted     |
+| Storage Access   | Public              | Private        |
+| VM Access        | Always Open         | JIT Controlled |
+| Secure Score     | Lower               | Improved       |
 
 ------------------------------------------------------------------------
 
