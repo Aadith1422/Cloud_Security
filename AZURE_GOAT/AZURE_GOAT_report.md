@@ -24,17 +24,6 @@ attack paths leading to resource compromise.
 
 ------------------------------------------------------------------------
 
-## Architecture Overview
-
-The following diagram illustrates the AzureGoat application
-architecture, including Azure Storage, Virtual Machines, Managed
-Identities, Automation Accounts, and trust boundaries between
-components.
-
-![Figure 0 -- AzureGoat Architecture and Attack
-Flow](screenshots/00_azure_architecture_overview.png)
-
-------------------------------------------------------------------------
 
 ## Vulnerabilities Assessed:
 
