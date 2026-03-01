@@ -212,25 +212,14 @@ runtime threat detection.
 
 ## 4. Capability Comparison
 
-  --------------------------------------------------------------------------
-  Capability    AWS Security Hub  AWS Config  Microsoft Defender for Cloud
-  ------------- ----------------- ----------- ------------------------------
-  Continuous    Yes               Yes         Yes
-  Compliance                                  
-
-  Drift         Limited           Strong      Moderate
-  Detection                                   
-
-  Alerting      Yes               Yes         Yes
-
-  Automated     Via EventBridge   Via SSM     Via Logic Apps
-  Remediation                                 
-
-  Risk Scoring  Yes               No          Yes
-
-  Multi-cloud   No                No          Yes
-  Support                                     
-  --------------------------------------------------------------------------
+| Capability              | AWS Security Hub | AWS Config | Microsoft Defender for Cloud |
+|--------------------------|------------------|------------|------------------------------|
+| Continuous Compliance    | Yes              | Yes        | Yes                          |
+| Drift Detection          | Limited          | Strong     | Moderate                     |
+| Alerting                 | Yes              | Yes        | Yes                          |
+| Automated Remediation    | Via EventBridge  | Via SSM    | Via Logic Apps               |
+| Risk Scoring             | Yes              | No         | Yes                          |
+| Multi-cloud Support      | No               | No         | Yes                          |
 
 ------------------------------------------------------------------------
 
