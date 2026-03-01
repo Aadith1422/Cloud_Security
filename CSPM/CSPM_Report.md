@@ -40,10 +40,7 @@ Key Objectives:
 
 ------------------------------------------------------------------------
 
-# 3. Major CSPM Tools (Expanded Analysis)
-
-**Prepared By:** Aadith C H\
-**Date:** 28 February 2026
+# 3. Major CSPM Tools 
 
 ------------------------------------------------------------------------
 
